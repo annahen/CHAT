@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency", "Concurrency\Concurrency.csproj", "{60FC53A5-A2C9-459D-862D-06C34ED71284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyTest", "ConcurrencyTest\ConcurrencyTest.csproj", "{EF800CFD-B5BC-471B-9E1E-186FB4C5124D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{60FC53A5-A2C9-459D-862D-06C34ED71284} = {60FC53A5-A2C9-459D-862D-06C34ED71284}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60FC53A5-A2C9-459D-862D-06C34ED71284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FC53A5-A2C9-459D-862D-06C34ED71284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FC53A5-A2C9-459D-862D-06C34ED71284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FC53A5-A2C9-459D-862D-06C34ED71284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF800CFD-B5BC-471B-9E1E-186FB4C5124D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF800CFD-B5BC-471B-9E1E-186FB4C5124D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF800CFD-B5BC-471B-9E1E-186FB4C5124D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF800CFD-B5BC-471B-9E1E-186FB4C5124D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {265B54F4-E9B9-43B7-A9A2-64D9CF660F0F}
+	EndGlobalSection
+EndGlobal
